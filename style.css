@@ -1,0 +1,64 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('fondo.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+header .logo img {
+    max-width: 100px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Enlace al video */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
